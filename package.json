@@ -1,0 +1,16 @@
+{
+  "name": "jamarisbuford-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"sass --watch styles/main.scss\" \"httpserver\""    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "httpserver": "^0.3.0"
+  }
+}
